@@ -1,38 +1,53 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #780206;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #fff;
+}
+
+/* Main App Container */
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  padding: 2rem;
+  min-height: 100vh; /* Ensure full screen height */
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Main Title */
+h1 {
+  color: #f9a826;
+  font-size: 3rem; /* Adjust the size */
+  font-weight: bold;
+  margin-bottom: 2rem; /* Space below the title */
+  text-transform: uppercase; /* Capitalize all text */
+  letter-spacing: 2px; /* Adds space between the letters */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Soft shadow to make it stand out */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Error message */
+.error {
+  color: #e74c3c;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .App {
+    padding: 1rem; /* Reduced padding for mobile */
   }
-  to {
-    transform: rotate(360deg);
+
+  h1 {
+    font-size: 2.5rem; /* Smaller title size on mobile */
+    margin-bottom: 1rem;
+  }
+
+  .error {
+    font-size: 1rem; /* Smaller error message font on mobile */
   }
 }
