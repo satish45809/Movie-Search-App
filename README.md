@@ -33,4 +33,6 @@ Fetching movie data from the OMDb API.
 
 Local storage for saving favorites.
 
+# OUTPUT:
+![Image](https://github.com/user-attachments/assets/9e1fc78d-f265-4df9-bed2-02a01b2cd212)
 
