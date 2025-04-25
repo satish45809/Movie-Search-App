@@ -18,17 +18,17 @@ The Movie Search App is a dynamic, feature-rich React application that allows us
 
 ## Key Features:
 
-Search Functionality: Users can quickly search for movies by title, and results are displayed in a user-friendly grid format with essential movie details such as name, poster, release year, and IMDb rating.
+1.Search Functionality: Users can quickly search for movies by title, and results are displayed in a user-friendly grid format with essential movie details such as name, poster, release year, and IMDb rating.
 
-Movie Details: Upon selecting a movie, users can view more detailed information, including the plot summary, cast, director, and more, all fetched from the OMDB API.
+2.Movie Details: Upon selecting a movie, users can view more detailed information, including the plot summary, cast, director, and more, all fetched from the OMDB API.
 
-Favorite Movies: Users can add their favorite movies to a "Favorites" list, allowing them to easily revisit and track their preferred films.
+3.Favorite Movies: Users can add their favorite movies to a "Favorites" list, allowing them to easily revisit and track their preferred films.
 
-Responsive Design: The app is fully responsive, providing an optimal viewing experience across devices, including mobile phones, tablets, and desktops.
+4.Responsive Design: The app is fully responsive, providing an optimal viewing experience across devices, including mobile phones, tablets, and desktops.
 
-Clean User Interface: A sleek, modern design that ensures an engaging user experience, featuring intuitive navigation and smooth animations.
+5.Clean User Interface: A sleek, modern design that ensures an engaging user experience, featuring intuitive navigation and smooth animations.
 
-Error Handling: The app gracefully handles API errors, such as invalid searches or network issues, providing users with meaningful feedback.
+6.Error Handling: The app gracefully handles API errors, such as invalid searches or network issues, providing users with meaningful feedback.
 # OUTPUT:
 ![Image](https://github.com/user-attachments/assets/9e1fc78d-f265-4df9-bed2-02a01b2cd212)
 
